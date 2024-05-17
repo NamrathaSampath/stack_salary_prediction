@@ -5,6 +5,7 @@ import seaborn as sns
 import statsmodels.api as sm
 from scipy.stats import kstest
 from sklearn.preprocessing import StandardScaler
+from zipfile import ZipFile
 
 
 class DataProcessor:
@@ -102,7 +103,12 @@ class DataProcessor:
 
 
 # Example usage:
-data_path = '/Users/namratha/Desktop/stack_salary_prediction/raw_data.csv'
+compress_file_path = 'Data/raw_data.csv.zip'
+file_path = 'Data/'
+with ZipFile(compress_file_path, 'r') as zObject: 
+    zObject.extractall(path= file_path)
+
+data_path = file_path+'raw_data.csv'
 processor = DataProcessor(data_path)
 processor.load_data()
 processor.explore_data()
