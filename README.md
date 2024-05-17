@@ -38,11 +38,9 @@ Step 3: Install Dependencies
 Install the required Python packages:pip install -r requirements.txt
 Access the repository: cd repository
 
-**Project Contributors**
+**Methodology - Compensation Prediction**
 
-Methodology
 
-Compensation Prediction
 
 Variables: YearsCodePro, CodingLanguageNum, OfficeStackAsyncNum, OpSysProfessionalNum, NEWCollabToolsNum, WorkExp, DatabaseNum, PlatformNum, OfficeStackSyncNum, Full-time Employment, Age_encoded, EdLevel_encoded, RemoteWork_encoded, Continent_encoded
 
