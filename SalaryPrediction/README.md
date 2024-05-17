@@ -54,10 +54,10 @@ Salary Prediction : XG Boost model effectively predicts developer salaries, alth
 
 **Project Contributors**
 
-Namratha S Kumar
+Nandini S-Feature selection,Modeling,Evaluation
 
-Nandini S Nair
+Namratha Sampath Kumar- Data Preprocessing ,Modeling,Evaluation
 
-Pooja Manjunatha
+Pooja Manjunatha- Data Collection,Modeling,Evaluation
 
-Priya Varahan
+Priya Varahan- Data Transformation,Modeling,Evaluation
