@@ -23,9 +23,11 @@ Geographic Scope: 185 countries.
 Python 3.x: Ensure Python is installed on your system. You can download it from python.org.
 VS Code: Install Visual Studio Code from code.visualstudio.com.
 Git: Install Git from git-scm.com
+
 Step 1: Clone the Repository
 Open a terminal or command prompt.
 Clone the project repository from GitHub :  git clone REPO_URL
+
 Step 2: Set Up  and activate a Virtual Environment
 1.Create a virtual environment:
 python -m venv venv
@@ -39,4 +41,7 @@ Step 3: Install Dependencies
 Install the required Python packages:pip install -r requirements.txt
 Access the repository: cd repository
 
+**Project Contributors**
+
+N
 
