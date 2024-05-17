@@ -64,7 +64,7 @@ class DataEncoder:
         print(f"\nEncoded data saved to {output_file}")
 
 # Usage
-data_encoder = DataEncoder('/Users/namratha/Desktop/stack_salary_prediction/visualisation.csv')
+data_encoder = DataEncoder('Data/visualisation.csv')
 data_encoder.load_data()
 data_encoder.encode_categories()
 data_encoder.save_encoded_data('FinalEncodedWithCategorical.csv')
