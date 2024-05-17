@@ -59,7 +59,7 @@ class SalaryPredictor:
 
 def main():
     
-    file_name = 'C:\\Users\\Checkout\\Desktop\\stack_salary_prediction\\FinalEncodedWithCategorical (1).csv'
+    file_name = 'Data/FinalEncodedWithCategorical.csv'
     if not os.path.exists(file_name):
         print(f"File '{file_name}' not found. Please check the file path and name.")
         return
