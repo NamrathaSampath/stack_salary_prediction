@@ -144,4 +144,4 @@ columns_to_transform = ['YearsCodePro', 'EdLevel_encoded', 'Continent_encoded', 
 
 data_transformer.apply_log_transformations(columns_to_transform)
 
-data_transformer.save_transformed_data('readyformodeling.csv')
+data_transformer.save_transformed_data('Data/readyformodeling.csv')
