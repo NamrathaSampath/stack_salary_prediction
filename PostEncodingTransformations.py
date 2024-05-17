@@ -118,7 +118,7 @@ class DataTransformer:
         self.transformed_data.to_csv(output_file, index=False)
 
 # Usage
-data_transformer = DataTransformer('/Users/namratha/Desktop/stack_salary_prediction/EncodedFinalCopy.csv')
+data_transformer = DataTransformer('Data/EncodedFinalCopy.csv')
 data_transformer.load_data()
 
 numeric_vars = ['Age_encoded', 'EdLevel_encoded', 'RemoteWork_encoded', 'YearsCodePro', 'Continent_encoded',
