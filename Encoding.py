@@ -67,4 +67,4 @@ class DataEncoder:
 data_encoder = DataEncoder('Data/visualisation.csv')
 data_encoder.load_data()
 data_encoder.encode_categories()
-data_encoder.save_encoded_data('FinalEncodedWithCategorical.csv')
+data_encoder.save_encoded_data('Data/FinalEncodedWithCategorical.csv')
