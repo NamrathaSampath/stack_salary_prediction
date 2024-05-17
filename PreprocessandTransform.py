@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from plotnine import ggplot, aes, geom_point, geom_smooth, labs, theme
 from tabulate import tabulate
+from zipfile import ZipFile 
+# importing the zipfile module 
+
 
 class DataPreprocessor:
     def __init__(self, file_path):
@@ -264,8 +267,12 @@ class DataPreprocessor:
         self.data.to_csv(output_file, index=False)
 
 if __name__ == "__main__":
-    file_path = '/Users/namratha/Desktop/stack_salary_prediction/new_data.csv'
-    data_preprocessor = DataPreprocessor(file_path)
+    compress_file_path = 'Data/new_data.csv.zip'
+    file_path = 'Data/'
+    with ZipFile(compress_file_path, 'r') as zObject: 
+        zObject.extractall(path= file_path)
+
+    data_preprocessor = DataPreprocessor(file_path+'new_data.csv')
 
     data_preprocessor.display_data()
     data_preprocessor.transform_target_feature()
