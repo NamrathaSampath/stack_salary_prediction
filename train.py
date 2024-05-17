@@ -84,7 +84,7 @@ class DataHandler:
         return X, y
 
 def main():
-    file_name = 'C:\\Users\\Checkout\\Desktop\\stack_salary_prediction\\FinalEncodedWithCategorical (1).csv'
+    file_name = 'Data/FinalEncodedWithCategorical.csv'
 
     data_handler = DataHandler(file_name)
     X, y = data_handler.get_features_and_target()
