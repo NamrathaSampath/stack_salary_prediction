@@ -86,8 +86,8 @@ class ModelTrainer:
         print(df_metrics)
 
 def main():
-    file_name = 'C:/Users/Checkout/Desktop/stack_salary_prediction/FinalEncodedWithCategorical (1).csv'
-    filem = 'C:/Users/Checkout/Desktop/stack_salary_prediction/_file.txt'
+    file_name = 'Data/FinalEncodedWithCategorical.csv'
+    filem = 'Data/_file.txt'
 
     # Initialize DataHandler
     data_handler = DataHandler(file_name)
