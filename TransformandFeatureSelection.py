@@ -153,7 +153,7 @@ class DataTransformer:
         print(f"Data saved to {output_file}")
 
 if __name__ == "__main__":
-    data_path = '/Users/namratha/Desktop/stack_salary_prediction/NullImputedFinal.csv'
+    data_path = 'Data/NullImputedFinal.csv'
     data_transformer = DataTransformer(data_path)
 
     # Remove salary outliers
