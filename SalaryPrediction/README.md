@@ -51,13 +51,3 @@ Performance Metrics: Root Mean Square Error (RMSE) ,Mean Squared Error(MSE) and 
 **Key Insights**
 
 Salary Prediction : XG Boost model effectively predicts developer salaries, although with a Highest  R^2 value
-
-**Project Contributors**
-
-Nandini S-Feature selection,Modeling,Evaluation
-
-Namratha Sampath Kumar- Data Preprocessing ,Modeling,Evaluation
-
-Pooja Manjunatha- Data Collection,Modeling,Evaluation
-
-Priya Varahan- Data Transformation,Modeling,Evaluation
